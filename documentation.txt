@@ -1,0 +1,56 @@
+===============================
+DOCUMENTATION - PORTFOLIO SITE
+===============================
+
+PART 3: HTML EXPLANATION & STRUCTURE
+------------------------------------
+
+1. WHAT EACH HTML ELEMENT DOES:
+
+- <html> : Root element of the webpage.
+- <head> : Contains metadata, title, and styles.
+- <title> : Sets the title shown in the browser tab.
+- <style> : Contains internal CSS to style the page.
+- <body> : Holds all visible page content.
+- <header> : Semantic HTML5 tag for the page header.
+- <nav> : Contains the website's navigation links.
+- <main> : Main section of the page content.
+- <section> : Defines sections within the main content.
+- <article> : Represents independent content blocks.
+- <footer> : Contains page footer content or copyright.
+- <h1> to <h6> : Headings used to structure content hierarchy.
+- <a> : Anchor tag used to add hyperlinks.
+- <p> : Defines a paragraph.
+- <ul>, <ol>, <li> : Unordered and ordered lists with list items.
+- <img> : Displays an image using a source path and alt text.
+- <table>, <tr>, <th>, <td> : Used to create tables.
+- <form> : Wraps form inputs for submission.
+- <input> : Collects user data (text, email, phone, etc.).
+- <textarea> : Multi-line text input.
+- <label> : Text label for form fields.
+- <button> : Used to submit the form.
+
+------------------------------------
+
+2. WHY I CHOSE SPECIFIC INPUT TYPES:
+
+- TEXT: For name – allows any short text input.
+- EMAIL: Automatically checks for valid email format.
+- TEL: For phone number with optional pattern validation.
+- TEXTAREA: To let users write a detailed message.
+- CHECKBOX: Lets users select multiple contact methods.
+- RADIO: To allow only one selection for inquiry type.
+- DATE: Helps user choose a preferred contact date.
+- RANGE: For users to rate urgency (1 to 10) visually.
+- SELECT (DROPDOWN): Saves space and keeps options clean.
+
+------------------------------------
+
+3. HOW MY NAVIGATION STRUCTURE WORKS:
+
+- I used the <nav> tag to wrap my navigation menu.
+- Internal Links:
+    > Link to 'portfolio.html', 'about.html', and 'contact.html' for page-to-page navigation.
+- External Links:
+    > Linked to my LinkedIn profile using a full URL (https://...) and target="_blank" to open in a new tab.
+- Each page contains a link back to the home/portfolio page to allow smooth movement across the website.
